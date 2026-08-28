@@ -1,0 +1,16 @@
+{
+  "name": "genmon",
+  "user": "ubuntu",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "genmon-monitor",
+      "command": "bash .cursor/run.sh genmon"
+    },
+    {
+      "name": "genmon-web",
+      "command": "bash .cursor/run.sh genserv"
+    }
+  ],
+  "ports": [8000]
+}

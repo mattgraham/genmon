@@ -1,6 +1,10 @@
 outage.txt
 kwlog.txt
 
+# Cloud Agent runtime data (generated config, logs, simulation register dump)
+.cursor/rundata/
+.run/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
